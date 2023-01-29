@@ -1,0 +1,30 @@
+.container-money {
+  background-color: var(--color-secundary-1);
+  font-family: var(--font-2);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.container-value{
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.total-value {
+  color: var(--color-secundary-3);
+  font-weight: 700;
+  
+}
+
+.description-total__value {
+  font-size: 0.75rem;
+}
+
+.total-title, .description-total__value{
+  color: var( --color-grey-3);
+}

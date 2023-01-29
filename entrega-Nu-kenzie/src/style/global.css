@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+
+:root{
+  --color-grey-1: #000;
+  --color-grey-2: #ffff;
+  --color-grey-3: #343A40;
+  --color-secundary-1: #F8F9FA;
+  --color-secundary-2: #E9ECEF;
+  --color-secundary-3: #FD377E;
+  --color-secundary-4: #03B898;
+
+  --font-1: 'Inter', sans-serif;
+  --font-2: 'Nunito', sans-serif;
+}
+

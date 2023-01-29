@@ -1,0 +1,54 @@
+.container-item {
+  display: flex;
+  width: 100%;
+}
+
+.list-item {
+  background-color: var(--color-secundary-1);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: var(--font-2);
+  gap: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.color-entry {
+  background-color: var(--color-secundary-4);
+  color: var(--color-secundary-4);
+}
+
+.color-entry,
+.color-out {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.color-out {
+  background-color: var(--color-secundary-2);
+  color: var(--color-secundary-2);
+}
+
+.description,
+.value,
+.value-type {
+  color: var(--color-grey-3);
+}
+
+.description {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.value,
+.value-type {
+  font-size: 0.75;
+}
+
+.remove-button {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-secundary-2);
+  border: 1px solid var(--color-secundary-2);
+}
